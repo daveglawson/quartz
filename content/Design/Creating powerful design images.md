@@ -1,0 +1,4 @@
+- Use tools with icons.
+- Layers
+- Consistent colors
+- Minimalism
