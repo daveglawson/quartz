@@ -1,5 +1,8 @@
 ---
 title: Hello World
+tags:
+  - intro
+  - data
 ---
 
 This is a blank Quartz installation.
