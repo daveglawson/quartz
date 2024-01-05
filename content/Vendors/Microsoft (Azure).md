@@ -1,2 +1,2 @@
-State of flux.
-Products not typically aimed at developers.
+- State of flux.
+- Products not typically aimed at developers.
