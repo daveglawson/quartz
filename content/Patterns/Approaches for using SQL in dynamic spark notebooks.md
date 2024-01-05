@@ -1,3 +1,13 @@
+
+---
+title: Approaches for using SQL in dynamic synapse spark notebooks
+tags:
+  - spark
+  - synapse
+  - Azure
+  - notebook
+---
+
 3 Approaches.
 
 1. Inline (non dynamic)
