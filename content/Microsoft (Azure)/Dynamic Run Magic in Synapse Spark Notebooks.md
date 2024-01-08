@@ -6,7 +6,7 @@ tags:
   - spark
   - synapse
 ---
-## Dynamic 'run magic' in Synapse Spark Notebooks.
+# Introduction
 
 In a collaborative environment, it's likely that you'll need to work with other notebooks in the same environment. For example, if writing a utility function that can be used across numerous notebooks, it is not always possible or appropriate to push those new notebooks to main prior calling that notebook elsewhere.
 As such, it's essential to set a property on the notebook that allows for unpublished notebooks to be referenced in parent notebooks. This will be the case when
@@ -20,18 +20,18 @@ The property can be set on each notebook.
 
 > [!warning] Warning - property must be set on both caller and called notebook
 > This is a gotcha that catches a few people out. The property must be assigned on both the parent and child notebooks. If set on parent and child notebooks, then even notebooks that have not yet been published can be references.
-### Calling other notebooks
+# Methods Calling other notebooks
 
 There are two ways to call other notebooks.
 
-#### Static
+## Static
 If the same notebook will be called each time, then simply hard code the name of the notebook using the run magic command as below.
 ```python
 %run /folder/subfolder/notebook_name
 ```
 Note that the location of the notebook to be called is not enclosed in strings.
 
-#### Dynamic
+## Dynamic
 If the notebook to be called is established during notebook execution (such as from a config database, or based on other logic), then use the 
 ```python
 notebook_loc='/folder/subfolder/notebook_name'
