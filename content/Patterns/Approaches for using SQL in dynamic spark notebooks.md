@@ -6,6 +6,7 @@ tags:
   - synapse
   - Azure
   - notebook
+date: 2024-04-06
 ---
 
 3 Approaches.
