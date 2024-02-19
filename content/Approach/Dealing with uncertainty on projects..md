@@ -1,3 +1,11 @@
+---
+title: Dealing with uncertainty
+draft: false
+tags:
+  - mindset
+  - project-management
+date: 2024-02-01
+---
 
 Uncertainty often accompanies complex, high-stakes projects, and navigating it successfully requires a blend of resilience, adaptability, and strategic foresight. Notes to self on how to continuously leverage uncertainty.
 
